@@ -1,0 +1,180 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "43217be4-f6fb-11ef-ab11-2c9c5800dd60",
+    "deck_config_uuid": "43217be5-f6fb-11ef-b9c4-2c9c5800dd60",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "43217be5-f6fb-11ef-b9c4-2c9c5800dd60",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "По умолчанию",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "_auto-render.js",
+        "_highlight.css",
+        "_highlight.js",
+        "_katex.css",
+        "_katex.min.js",
+        "_markdown-it-mark.js",
+        "_markdown-it.min.js",
+        "_mhchem.js",
+        "_style.css",
+        "_user_style.css"
+    ],
+    "name": "ML-theory-basics",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "35754ade-f6fc-11ef-be6e-2c9c5800dd60",
+            "css": "/* To customize styles for this note type, please edit the '_user_style.css'\n * file in your collection media folder.\n * \n * To find it, please refer to: https://docs.ankiweb.net/files.html#file-locations */\n\n@import url(_style.css);\n@import url(_user_style.css);\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 4517273015533304004,
+                    "name": "Text",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -6044391559477620974,
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "KaTeX and Markdown Cloze + Show Cloze (Color)",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "<div id=\"back\" class=\"field\">\n  <pre>{{cloze:Text}}</pre>\n</div><br>\n<div id=\"extra\" class=\"field\">\n  <pre>{{Back Extra}}</pre>\n</div>\n\n<!-- Anki-KaTeX-Markdown -->\n\n<script>\n  var fields = [...document.querySelectorAll(\".field\")];\n  var getResources = [\n    getCSS(\"_katex.css\", \"https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css\"),\n    getCSS(\"_highlight.css\", \"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/default.min.css\"),\n    getScript(\"_highlight.js\", \"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js\"),\n    getScript(\"_katex.min.js\", \"https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js\"),\n    getScript(\"_auto-render.js\", \"https://cdn.jsdelivr.net/gh/Jwrede/Anki-KaTeX-Markdown/auto-render-cdn.js\"),\n    getScript(\"_markdown-it.min.js\", \"https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.4/markdown-it.min.js\"),\n    getScript(\"_markdown-it-mark.js\", \"https://cdn.jsdelivr.net/gh/Jwrede/Anki-KaTeX-Markdown/_markdown-it-mark.js\")\n  ];\n  Promise.all(getResources).then(() => getScript(\"_mhchem.js\", \"https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js\")).then(render).catch(show);\n\n\n  function getScript(path, altURL) {\n    return new Promise((resolve, reject) => {\n      let script = document.createElement(\"script\");\n      script.onload = resolve;\n      script.onerror = function () {\n        let script_online = document.createElement(\"script\");\n        script_online.onload = resolve;\n        script_online.onerror = reject;\n        script_online.src = altURL;\n        document.head.appendChild(script_online);\n      };\n      script.src = path;\n      document.head.appendChild(script);\n    });\n  }\n\n  function replaceSpan(str) {\n    let tokenized = str.split(/(<span.*?>|<\\/span>)/g);\n    let isCloze = false;\n    tokenized = tokenized.map((element, idx) => {\n      if (element.includes(\"<span class='cloze'\") || element.includes('<span class=\"cloze\"')) {\n        isCloze = true;\n        return '<span class=\"cloze\">';\n      } else if (isCloze && element.includes(\"</span>\")) {\n        isCloze = false;\n        return \"</span>\";\n      } else if (element.includes(\"<span\")) {\n        return \"\";\n      } else if (element.includes(\"</span>\")) {\n        return \"\";\n      } else {\n        return element;\n      }\n    });\n    return tokenized.join(\"\");\n  }\n\n  function getCSS(path, altURL) {\n    return new Promise((resolve, reject) => {\n      var css = document.createElement(\"link\");\n      css.setAttribute(\"rel\", \"stylesheet\");\n      css.type = \"text/css\";\n      css.onload = resolve;\n      css.onerror = function () {\n        var css_online = document.createElement(\"link\");\n        css_online.setAttribute(\"rel\", \"stylesheet\");\n        css_online.type = \"text/css\";\n        css_online.onload = resolve;\n        css_online.onerror = reject;\n        css_online.href = altURL;\n        document.head.appendChild(css_online);\n      };\n      css.href = path;\n      document.head.appendChild(css);\n    });\n  }\n\n  function render() {\n    fields.forEach((element) => {\n      renderMath(element.id);\n      markdown(element.id);\n    });\n    show();\n  }\n\n  function show() {\n    fields.forEach((element) => {\n      document.getElementById(element.id).style.visibility = \"visible\";\n    });\n  }\n\n  function renderMath(ID) {\n    let text = document.getElementById(ID).innerHTML;\n    text = replaceInString(text);\n    text = text.replaceAll(\"\\\\$\", \"⛳\");\n    text = text.replaceAll(\"\\\\:\", \"🉐\");\n    document.getElementById(ID).innerHTML = text;\n    renderMathInElement(document.getElementById(ID), {\n      delimiters: [\n        { left: \"$$\", right: \"$$\", display: true },\n        { left: \"$\", right: \"$\", display: false },\n      ],\n      throwOnError: false,\n    });\n  }\n\n  function markdown(ID) {\n    // setup markdown\n    let md = new markdownit({\n      typographer: true, html: true, highlight: function (str, lang) {\n        if (lang && hljs.getLanguage(lang)) {\n          try {\n            return hljs.highlight(str, { language: lang }).value;\n          } catch (__) { }\n        }\n\n        return \"\"; // use external default escaping\n      },\n    }).use(markdownItMark);\n\n    // preprocessing\n    let element = document.getElementById(ID);\n    const clozes = [...element.getElementsByClassName(\"cloze\")];\n    for (let i = 0; i < clozes.length; i++) {\n      clozes[i].innerHTML = md.render(clozes[i].innerHTML).\n        replace(/<p>|<\\/p>/gi, \"\").replace(/<pre>/gi, \"<pre class='cloze'>\")\n      let parentNode = clozes[i].parentNode;\n      parentNode.replaceChild(document.createTextNode(\"REPLACE_ME_CLOZE\"), clozes[i]);\n    }\n    //\n    const inactiveClozes = [...element.getElementsByClassName(\"cloze-inactive\")];\n    for (let i = 0; i < inactiveClozes.length; i++) {\n      inactiveClozes[i].innerHTML = md.render(inactiveClozes[i].innerHTML).\n        replace(/<p>|<\\/p>/gi, \"\")\n      let parentNode = inactiveClozes[i].parentNode;\n      parentNode.replaceChild(document.createTextNode(\"REPLACE_ME_INACTIVE_CLOZE\"), inactiveClozes[i]);\n    }\n    // render\n    text = replaceHTMLElementsInString(document.getElementById(ID).innerHTML);\n    text = md.render(text);\n    // post processing\n    for (let i = 0; i < clozes.length; i++) {\n      text = text.replace(\"REPLACE_ME_CLOZE\", clozes[i].outerHTML);\n    }\n    for (let i = 0; i < inactiveClozes.length; i++) {\n      text = text.replace(\"REPLACE_ME_INACTIVE_CLOZE\", inactiveClozes[i].outerHTML);\n    }\n    text = restoreHTMLElementsInString(text);\n    text = text.replaceAll(\"⛳\", \"$\");\n    text = text.replaceAll(\"🉐\", \":\");\n    document.getElementById(ID).innerHTML = text.replace(/&lt;\\/span&gt;/gi, \"</span>\");\n  }\n\n  function replaceInString(str) {\n    str = str.replace(/<[\\/]?pre[^>]*>/gi, \"\");\n    str = str.replace(/<br\\s*[\\/]?[^>]*>/gi, \"\\n\");\n    str = str.replace(/<div[^>]*>/gi, \"\\n\");\n    // Thanks Graham A!\n    str = str.replace(/<\\/div[^>]*>/g, \"\\n\");\n    return replaceHTMLElementsInString(str);\n  }\n\n  replacementElements = [\n    { from: \"\\\\<\", to: \"➿\", is_plaintext: true },\n    { from: \"\\\\>\", to: \"➰\", is_plaintext: true },\n    { from: \"&amp;\", to: \"&\" },\n    { from: \"&nbsp;\", to: \" \" },\n    { from: \"&tab;\", to: \"\t\" },\n  ];\n\n  restoreElements = [\n    { from: \"➿\", to: \"<\", is_plaintext: true },\n    { from: \"➰\", to: \">\", is_plaintext: true },\n    { from: \"&amp;\", to: \"&\", is_plaintext: true },\n    { from: \"&amp;lt;\", to: \"&lt;\", is_plaintext: true },\n    { from: \"&amp;gt;\", to: \"&gt;\", is_plaintext: true },\n  ];\n\n  function replaceHTMLElementsInString(str) {\n    for (let i = 0; i < replacementElements.length; i++) {\n      if (replacementElements[i].is_plaintext) {\n        str = str.replaceAll(replacementElements[i].from, replacementElements[i].to);\n      } else {\n        str = str.replace(new RegExp(replacementElements[i].from, \"gi\"), replacementElements[i].to);\n      }\n    }\n    return str;\n  }\n\n  function restoreHTMLElementsInString(str) {\n    for (let i = 0; i < restoreElements.length; i++) {\n      if (restoreElements[i].is_plaintext) {\n        str = str.replaceAll(restoreElements[i].from, restoreElements[i].to);\n      } else {\n        str = str.replace(new RegExp(restoreElements[i].from, \"gi\"), restoreElements[i].to);\n      }\n    }\n    return str;\n  }\n</script>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -517598124572258114,
+                    "name": "KaTeX and Markdown Cloze + Show Cloze (Color)",
+                    "ord": 0,
+                    "qfmt": "<div id=\"front\" class=\"field\">\n  <pre>{{cloze:Text}}</pre>\n</div>\n\n<!-- Anki-KaTeX-Markdown -->\n\n<script>\n  var fields = [...document.querySelectorAll(\".field\")];\n  var getResources = [\n    getCSS(\"_katex.css\", \"https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css\"),\n    getCSS(\"_highlight.css\", \"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/default.min.css\"),\n    getScript(\"_highlight.js\", \"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js\"),\n    getScript(\"_katex.min.js\", \"https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js\"),\n    getScript(\"_auto-render.js\", \"https://cdn.jsdelivr.net/gh/Jwrede/Anki-KaTeX-Markdown/auto-render-cdn.js\"),\n    getScript(\"_markdown-it.min.js\", \"https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.4/markdown-it.min.js\"),\n    getScript(\"_markdown-it-mark.js\", \"https://cdn.jsdelivr.net/gh/Jwrede/Anki-KaTeX-Markdown/_markdown-it-mark.js\")\n  ];\n  Promise.all(getResources).then(() => getScript(\"_mhchem.js\", \"https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js\")).then(render).catch(show);\n\n\n  function getScript(path, altURL) {\n    return new Promise((resolve, reject) => {\n      let script = document.createElement(\"script\");\n      script.onload = resolve;\n      script.onerror = function () {\n        let script_online = document.createElement(\"script\");\n        script_online.onload = resolve;\n        script_online.onerror = reject;\n        script_online.src = altURL;\n        document.head.appendChild(script_online);\n      };\n      script.src = path;\n      document.head.appendChild(script);\n    });\n  }\n\n  function replaceSpan(str) {\n    let tokenized = str.split(/(<span.*?>|<\\/span>)/g);\n    let isCloze = false;\n    tokenized = tokenized.map((element, idx) => {\n      if (element.includes(\"<span class='cloze'\") || element.includes('<span class=\"cloze\"')) {\n        isCloze = true;\n        return '<span class=\"cloze\">';\n      } else if (isCloze && element.includes(\"</span>\")) {\n        isCloze = false;\n        return \"</span>\";\n      } else if (element.includes(\"<span\")) {\n        return \"\";\n      } else if (element.includes(\"</span>\")) {\n        return \"\";\n      } else {\n        return element;\n      }\n    });\n    return tokenized.join(\"\");\n  }\n\n  function getCSS(path, altURL) {\n    return new Promise((resolve, reject) => {\n      var css = document.createElement(\"link\");\n      css.setAttribute(\"rel\", \"stylesheet\");\n      css.type = \"text/css\";\n      css.onload = resolve;\n      css.onerror = function () {\n        var css_online = document.createElement(\"link\");\n        css_online.setAttribute(\"rel\", \"stylesheet\");\n        css_online.type = \"text/css\";\n        css_online.onload = resolve;\n        css_online.onerror = reject;\n        css_online.href = altURL;\n        document.head.appendChild(css_online);\n      };\n      css.href = path;\n      document.head.appendChild(css);\n    });\n  }\n\n  function render() {\n    fields.forEach((element) => {\n      renderMath(element.id);\n      markdown(element.id);\n      add_show_button(element.id);\n    });\n    show();\n  }\n\n  var cloze_shown = 0;\n  function add_show_button(ID) {\n    let element = document.getElementById(ID);\n    // get all cloze spans of the form <span class=\"cloze\" data-cloze=\"this is the answer\" data-ordinal=\"2\">[this is the hint]</span>\n    let clozes = [...element.getElementsByClassName(\"cloze\")];\n    clozes = clozes.filter((cloze) => cloze.getAttribute(\"data-cloze\") !== null);\n\n    // Add a button after each cloze span\n    clozes.forEach((cloze) => {\n      // Create the button element\n      let button = document.createElement(\"button\");\n      button.textContent = \"Show Answer\"; // Text for the button\n      button.style.padding = \"4px 6px\";\n      button.style.margin = \"1px\";\n      button.addEventListener(\"click\", () => {\n        button.remove();\n        // Replace the content of the cloze span with the answer\n        cloze.innerHTML = cloze.getAttribute(\"data-cloze\");\n        // set cloze id to \"cloze-{cloze_shown}\"\n        cloze.id = `cloze-${cloze_shown}`;\n        renderMath(cloze.id);\n        markdown(cloze.id);\n\n        cloze.innerHTML = cloze.children[0].innerHTML;\n\n        cloze_shown++;\n\n        if (cloze_shown === clozes.length) {\n          // TODO : is there an option to trigger the \"Show Answer\" Anki button?\n        }\n      });\n      // Insert the button after the cloze span\n      cloze.insertAdjacentElement(\"afterend\", button);\n    });\n  }\n\n\n  function show() {\n    fields.forEach((element) => {\n      document.getElementById(element.id).style.visibility = \"visible\";\n    });\n  }\n\n  function renderMath(ID) {\n    let text = document.getElementById(ID).innerHTML;\n    text = replaceInString(text);\n    text = text.replaceAll(\"\\\\$\", \"⛳\");\n    text = text.replaceAll(\"\\\\:\", \"🉐\");\n    document.getElementById(ID).innerHTML = text;\n    renderMathInElement(document.getElementById(ID), {\n      delimiters: [\n        { left: \"$$\", right: \"$$\", display: true },\n        { left: \"$\", right: \"$\", display: false },\n      ],\n      throwOnError: false,\n    });\n  }\n\n  function markdown(ID) {\n    // setup markdown\n    let md = new markdownit({\n      typographer: true, html: true, highlight: function (str, lang) {\n        if (lang && hljs.getLanguage(lang)) {\n          try {\n            return hljs.highlight(str, { language: lang }).value;\n          } catch (__) { }\n        }\n\n        return \"\"; // use external default escaping\n      },\n    }).use(markdownItMark);\n\n    // preprocessing\n    let element = document.getElementById(ID);\n    const clozes = [...element.getElementsByClassName(\"cloze\")];\n    for (let i = 0; i < clozes.length; i++) {\n      clozes[i].innerHTML = md.render(clozes[i].innerHTML).\n        replace(/<p>|<\\/p>/gi, \"\").replace(/<pre>/gi, \"<pre class='cloze'>\")\n      let parentNode = clozes[i].parentNode;\n      parentNode.replaceChild(document.createTextNode(\"REPLACE_ME_CLOZE\"), clozes[i]);\n    }\n    //\n    const inactiveClozes = [...element.getElementsByClassName(\"cloze-inactive\")];\n    for (let i = 0; i < inactiveClozes.length; i++) {\n      inactiveClozes[i].innerHTML = md.render(inactiveClozes[i].innerHTML).\n        replace(/<p>|<\\/p>/gi, \"\")\n      let parentNode = inactiveClozes[i].parentNode;\n      parentNode.replaceChild(document.createTextNode(\"REPLACE_ME_INACTIVE_CLOZE\"), inactiveClozes[i]);\n    }\n    // render\n    text = replaceHTMLElementsInString(document.getElementById(ID).innerHTML);\n    text = md.render(text);\n    // post processing\n    for (let i = 0; i < clozes.length; i++) {\n      text = text.replace(\"REPLACE_ME_CLOZE\", clozes[i].outerHTML);\n    }\n    for (let i = 0; i < inactiveClozes.length; i++) {\n      text = text.replace(\"REPLACE_ME_INACTIVE_CLOZE\", inactiveClozes[i].outerHTML);\n    }\n    text = restoreHTMLElementsInString(text);\n    text = text.replaceAll(\"⛳\", \"$\");\n    text = text.replaceAll(\"🉐\", \":\");\n    document.getElementById(ID).innerHTML = text.replace(/&lt;\\/span&gt;/gi, \"</span>\");\n  }\n\n  function replaceInString(str) {\n    str = str.replace(/<[\\/]?pre[^>]*>/gi, \"\");\n    str = str.replace(/<br\\s*[\\/]?[^>]*>/gi, \"\\n\");\n    str = str.replace(/<div[^>]*>/gi, \"\\n\");\n    // Thanks Graham A!\n    str = str.replace(/<\\/div[^>]*>/g, \"\\n\");\n    return replaceHTMLElementsInString(str);\n  }\n\n  replacementElements = [\n    { from: \"\\\\<\", to: \"➿\", is_plaintext: true },\n    { from: \"\\\\>\", to: \"➰\", is_plaintext: true },\n    { from: \"&amp;\", to: \"&\" },\n    { from: \"&nbsp;\", to: \" \" },\n    { from: \"&tab;\", to: \"\t\" },\n  ];\n\n  restoreElements = [\n    { from: \"➿\", to: \"<\", is_plaintext: true },\n    { from: \"➰\", to: \">\", is_plaintext: true },\n    { from: \"&amp;\", to: \"&\", is_plaintext: true },\n    { from: \"&amp;lt;\", to: \"&lt;\", is_plaintext: true },\n    { from: \"&amp;gt;\", to: \"&gt;\", is_plaintext: true },\n  ];\n\n  function replaceHTMLElementsInString(str) {\n    for (let i = 0; i < replacementElements.length; i++) {\n      if (replacementElements[i].is_plaintext) {\n        str = str.replaceAll(replacementElements[i].from, replacementElements[i].to);\n      } else {\n        str = str.replace(new RegExp(replacementElements[i].from, \"gi\"), replacementElements[i].to);\n      }\n    }\n    return str;\n  }\n\n  function restoreHTMLElementsInString(str) {\n    for (let i = 0; i < restoreElements.length; i++) {\n      if (restoreElements[i].is_plaintext) {\n        str = str.replaceAll(restoreElements[i].from, restoreElements[i].to);\n      } else {\n        str = str.replace(new RegExp(restoreElements[i].from, \"gi\"), restoreElements[i].to);\n      }\n    }\n    return str;\n  }\n</script>"
+                }
+            ],
+            "type": 1
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "sad ... sa",
+                "sad sad sa"
+            ],
+            "guid": "A[UJA/f#ju",
+            "note_model_uuid": "35754ade-f6fc-11ef-be6e-2c9c5800dd60",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
